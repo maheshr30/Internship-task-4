@@ -1,0 +1,7 @@
+id,hypothesis,test,statistic,effect,ci,p_adjusted_holm,significant_at_5pct,p_raw
+T1,Product mix of orders changed between H1 and H2 2025,Chi-square test of independence (product x half),"chi2=6.38, df=5",Cramer's V=0.080,,1.0,False,0.2714
+T2,Mobile's share of orders fell from H1 to H2,Two-proportion z-test,z=2.32,21.2% -> 15.6% (106 -> 78 orders),drop of 5.7 pts (95% CI 0.9 to 10.5),0.1236,False,0.0206
+T3,Q3 orders are smaller than orders in other quarters,Welch two-sample t-test,"mean Q3 128,163 vs other quarters 142,890",Cohen's d=-0.13; Mann-Whitney p=0.061,"difference -14,727 (95% CI -31,144 to 1,691)",0.3929,False,0.0786
+T4,Weekend orders differ in value from weekday orders,Welch two-sample t-test,"mean weekend 133,233 vs weekday 141,894",Cohen's d=-0.08; Mann-Whitney p=0.225,"difference -8,661 (95% CI -24,253 to 6,931)",1.0,False,0.2757
+T5,Male and female order values differ,Welch two-sample t-test,"mean male 141,807 vs female 136,883",Cohen's d=0.04; Mann-Whitney p=0.650,"difference 4,924 (95% CI -9,232 to 19,080)",1.0,False,0.495
+T6,Customer age is related to order value,Pearson correlation,r=0.001,Spearman rho=-0.006,,1.0,False,0.9674
